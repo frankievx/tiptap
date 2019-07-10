@@ -1,4 +1,4 @@
-export default function (state, type) {
+export default function (state, type, attrs) {
   const {
     from,
     $from,
@@ -6,9 +6,36 @@ export default function (state, type) {
     empty,
   } = state.selection
 
+  let result = false
+
   if (empty) {
-    return !!type.isInSet(state.storedMarks || $from.marks())
+    result =!!type.isInSet(state.storedMarks || $from.marks())
+  }else{
+    result = !!state.doc.rangeHasMark(from, to, type)
   }
 
-  return !!state.doc.rangeHasMark(from, to, type)
+  if(attrs && attrs != {} && result){
+    result = $from.marks().find(x=>compareDeep(x.attrs,attrs))
+  }
+
+  return result
 }
+
+function compareDeep(a, b) {
+  if (a === b) return true
+  if (!(a && typeof a == "object") ||
+      !(b && typeof b == "object")) return false
+  let array = Array.isArray(a)
+  if (Array.isArray(b) != array) return false
+  if (array) {
+    if (a.length != b.length) return false
+    for (let i = 0; i < a.length; i++) if (!compareDeep(a[i], b[i])) return false
+  } else {
+    for (let p in a) if (!(p in b) || !compareDeep(a[p], b[p])) return false
+    for (let p in b) if (!(p in a)) return false
+  }
+  return true
+}
+
+
+
