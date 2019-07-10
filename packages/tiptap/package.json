@@ -1,6 +1,6 @@
 {
   "name": "@studio.lite/tiptap",
-  "version": "1.23.3",
+  "version": "1.23.4",
   "description": "A rich-text editor for Vue.js",
   "homepage": "https://tiptap.scrumpy.io",
   "license": "MIT",
@@ -20,8 +20,8 @@
     "url": "https://github.com/frankievx/tiptap/issues"
   },
   "dependencies": {
-    "@studio.lite/tiptap-commands": "^1.10.11",
-    "@studio.lite/tiptap-utils": "^1.5.9",
+    "@studio.lite/tiptap-commands": "^1.10.12",
+    "@studio.lite/tiptap-utils": "^1.5.10",
     "prosemirror-commands": "^1.0.8",
     "prosemirror-dropcursor": "^1.1.1",
     "prosemirror-gapcursor": "^1.0.4",
