@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frankievx/tiptap.git"
+    "url": "git+https://github.com/frankievx/tiptap/packages/tiptap.git"
   },
   "bugs": {
     "url": "https://github.com/frankievx/tiptap/issues"

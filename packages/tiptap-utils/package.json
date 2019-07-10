@@ -1,5 +1,6 @@
 {
-  "name": "tiptap-utils",
+  "name": "@studio.lite/tiptap-utils",
+  "private": false,
   "version": "1.5.11",
   "description": "Utility functions for tiptap",
   "homepage": "https://tiptap.scrumpy.io",

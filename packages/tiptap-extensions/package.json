@@ -1,5 +1,5 @@
 {
-  "name": "tiptap-extensions",
+  "name": "@studio.lite/tiptap-extensions",
   "version": "1.24.5",
   "description": "Extensions for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
