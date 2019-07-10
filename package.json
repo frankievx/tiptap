@@ -5,6 +5,7 @@
     "packages/*"
   ],
   "scripts": {
+    "prepare": "npm run build:packages",
     "start": "node ./node_modules/@babel/node/bin/babel-node.js ./build/examples/server.js --env=development",
     "build:packages": "node ./node_modules/@babel/node/bin/babel-node.js ./build/packages/build.js",
     "build:examples": "node ./node_modules/@babel/node/bin/babel-node.js ./build/examples/build.js --env=production",
