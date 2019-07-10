@@ -1,5 +1,5 @@
 {
-  "name": "tiptap-extensions",
+  "name": "@studio.lite/tiptap-extensions",
   "version": "1.24.2",
   "description": "Extensions for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
@@ -30,11 +30,12 @@
     "prosemirror-transform": "^1.1.3",
     "prosemirror-utils": "^0.9.3",
     "prosemirror-view": "^1.9.11",
-    "tiptap": "^1.23.2",
-    "tiptap-commands": "^1.10.10"
+    "@studio.lite/tiptap": "^1.23.2",
+    "@studio.lite/tiptap-commands": "^1.10.10"
   },
   "peerDependencies": {
     "vue": "^2.5.17",
     "vue-template-compiler": "^2.5.17"
-  }
+  },
+  "gitHead": "99f4de5c7a425fd3597df93922ee06838f4862b1"
 }

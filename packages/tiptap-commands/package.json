@@ -1,5 +1,5 @@
 {
-  "name": "tiptap-commands",
+  "name": "@studio.lite/tiptap-commands",
   "version": "1.10.10",
   "description": "Commands for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
@@ -27,6 +27,7 @@
     "prosemirror-state": "^1.2.3",
     "prosemirror-tables": "^0.8.1",
     "prosemirror-utils": "^0.9.3",
-    "tiptap-utils": "^1.5.8"
-  }
+    "@studio.lite/tiptap-utils": "^1.5.8"
+  },
+  "gitHead": "99f4de5c7a425fd3597df93922ee06838f4862b1"
 }

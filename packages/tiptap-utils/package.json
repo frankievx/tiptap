@@ -1,5 +1,5 @@
 {
-  "name": "tiptap-utils",
+  "name": "@studio.lite/tiptap-utils",
   "version": "1.5.8",
   "description": "Utility functions for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
@@ -24,5 +24,6 @@
     "prosemirror-state": "^1.2.3",
     "prosemirror-tables": "^0.8.1",
     "prosemirror-utils": "^0.9.3"
-  }
+  },
+  "gitHead": "99f4de5c7a425fd3597df93922ee06838f4862b1"
 }
