@@ -1,0 +1,40 @@
+{
+  "name": "@studio.lite/tiptap",
+  "private": false,
+  "version": "1.23.6",
+  "description": "A rich-text editor for Vue.js",
+  "homepage": "https://tiptap.scrumpy.io",
+  "license": "MIT",
+  "main": "dist/tiptap.common.js",
+  "module": "dist/tiptap.esm.js",
+  "unpkg": "dist/tiptap.js",
+  "jsdelivr": "dist/tiptap.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankievx/tiptap/packages/tiptap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frankievx/tiptap/issues"
+  },
+  "dependencies": {
+    "@studio.lite/tiptap-commands": "^1.10.14",
+    "@studio.lite/tiptap-utils": "^1.5.11",
+    "prosemirror-commands": "^1.0.8",
+    "prosemirror-dropcursor": "^1.1.1",
+    "prosemirror-gapcursor": "^1.0.4",
+    "prosemirror-inputrules": "^1.0.4",
+    "prosemirror-keymap": "^1.0.1",
+    "prosemirror-model": "^1.7.1",
+    "prosemirror-state": "^1.2.3",
+    "prosemirror-view": "^1.9.11"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "gitHead": "4e7fda04ce4a4606b950cd432cf168febaf43d61"
+}
