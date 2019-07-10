@@ -1,5 +1,5 @@
 {
-  "name": "tiptap-commands",
+  "name": "sl-tiptap-commands",
   "version": "1.10.9",
   "description": "Commands for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scrumpy/tiptap.git"
+    "url": "git+https://github.com/frankievx/tiptap.git"
   },
   "bugs": {
     "url": "https://github.com/scrumpy/tiptap/issues"
@@ -27,6 +27,6 @@
     "prosemirror-state": "^1.2.3",
     "prosemirror-tables": "^0.8.1",
     "prosemirror-utils": "^0.9.3",
-    "tiptap-utils": "^1.5.7"
+    "sl-tiptap-utils": "^1.5.7"
   }
 }

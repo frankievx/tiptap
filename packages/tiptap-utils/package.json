@@ -1,5 +1,5 @@
 {
-  "name": "tiptap-utils",
+  "name": "sl-tiptap-utils",
   "version": "1.5.7",
   "description": "Utility functions for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scrumpy/tiptap.git"
+    "url": "git+https://github.com/frankievx/tiptap.git"
   },
   "bugs": {
     "url": "https://github.com/scrumpy/tiptap/issues"
