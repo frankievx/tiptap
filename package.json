@@ -1,6 +1,6 @@
 {
   "name": "@studio.lite/tiptap-packages",
-  "private": false,
+  "private": true,
   "workspaces": [
     "packages/*"
   ],
