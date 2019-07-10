@@ -1,5 +1,5 @@
 {
-  "name": "tiptap",
+  "name": "sl-tiptap",
   "version": "1.23.1",
   "description": "A rich-text editor for Vue.js",
   "homepage": "https://tiptap.scrumpy.io",
@@ -14,10 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scrumpy/tiptap.git"
+    "url": "git+https://github.com/frankievx/tiptap.git"
   },
   "bugs": {
-    "url": "https://github.com/scrumpy/tiptap/issues"
+    "url": "https://github.com/frankievx/tiptap/issues"
   },
   "dependencies": {
     "prosemirror-commands": "^1.0.8",
