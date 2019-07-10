@@ -21,8 +21,8 @@
     "url": "https://github.com/scrumpy/tiptap/issues"
   },
   "dependencies": {
-    "tiptap": "^1.23.5",
-    "tiptap-commands": "^1.10.13",
+    "@studio.lite/tiptap": "^1.23.5",
+    "@studio.lite/tiptap-commands": "^1.10.13",
     "lowlight": "^1.12.1",
     "prosemirror-collab": "^1.1.2",
     "prosemirror-history": "^1.0.4",
